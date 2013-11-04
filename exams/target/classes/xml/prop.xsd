@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="propertiesList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="dbdriver" />
+				<xs:element ref="dburl" />
+				<xs:element ref="dbuser" />
+				<xs:element ref="dbpassword" />
+				<xs:element ref="dbpoolsize" />
+				<xs:element ref="dbfactoryname" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="dbdriver">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="com.mysql.jdbc.Driver"></xs:enumeration>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="dburl">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="dbuser">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="dbpassword">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="dbfactoryname">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="MySQL"></xs:enumeration>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="dbpoolsize">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="5" />
+				<xs:maxInclusive value="10000" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+</xs:schema>

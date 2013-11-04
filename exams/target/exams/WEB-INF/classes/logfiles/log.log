@@ -1,0 +1,277 @@
+2013-05-02 10:23:52,817  INFO main ConnectionPool:init:268 - Connection pool has been initialized successfully.
+2013-05-02 10:23:52,817  INFO main ConnectionPool:init:269 - Driver=com.mysql.jdbc.Driver
+2013-05-02 10:23:52,817  INFO main ConnectionPool:init:270 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-02 10:23:52,817  INFO main ConnectionPool:init:271 - User=root
+2013-05-02 10:23:52,817  INFO main ConnectionPool:init:272 - PoolSize=5
+2013-05-02 10:23:52,817  INFO main ConnectionPool:init:273 - CurrentSize=5
+2013-05-02 10:25:45,303  INFO main ConnectionPool:init:268 - Connection pool has been initialized successfully.
+2013-05-02 10:25:45,303  INFO main ConnectionPool:init:269 - Driver=com.mysql.jdbc.Driver
+2013-05-02 10:25:45,303  INFO main ConnectionPool:init:270 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-02 10:25:45,303  INFO main ConnectionPool:init:271 - User=root
+2013-05-02 10:25:45,303  INFO main ConnectionPool:init:272 - PoolSize=5
+2013-05-02 10:25:45,303  INFO main ConnectionPool:init:273 - CurrentSize=5
+2013-05-05 16:09:09,147  INFO main ConnectionPool:init:268 - Connection pool has been initialized successfully.
+2013-05-05 16:09:09,147  INFO main ConnectionPool:init:269 - Driver=com.mysql.jdbc.Driver
+2013-05-05 16:09:09,147  INFO main ConnectionPool:init:270 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 16:09:09,157  INFO main ConnectionPool:init:271 - User=root
+2013-05-05 16:09:09,157  INFO main ConnectionPool:init:272 - PoolSize=5
+2013-05-05 16:09:09,157  INFO main ConnectionPool:init:273 - CurrentSize=5
+2013-05-05 17:09:25,394 ERROR main XMLParser:<clinit>:56 - IOException
+java.io.FileNotFoundException: \xml\xml.properties (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at main.java.by.epam.xml.XMLParser.<clinit>(XMLParser.java:50)
+	at main.java.by.epam.db.pool.ConnectionPool.<init>(ConnectionPool.java:55)
+	at main.java.by.epam.db.pool.ConnectionPool.getInstance(ConnectionPool.java:128)
+	at main.java.by.epam.db.Main.main(Main.java:53)
+2013-05-05 17:09:25,544 ERROR main XMLParser:createLogicForSAXXMLReader:132 - SAXException in trying to create DOMXMLReader
+org.xml.sax.SAXParseException; systemId: file:///D:/Java%20Projects/EpamFinalTask/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at main.java.by.epam.xml.SAXXMLReader.<init>(SAXXMLReader.java:45)
+	at main.java.by.epam.xml.XMLParser.createLogicForSAXXMLReader(XMLParser.java:128)
+	at main.java.by.epam.xml.XMLParser.getSAMXMLReader(XMLParser.java:153)
+	at main.java.by.epam.db.pool.ConnectionPool.<init>(ConnectionPool.java:55)
+	at main.java.by.epam.db.pool.ConnectionPool.getInstance(ConnectionPool.java:128)
+	at main.java.by.epam.db.Main.main(Main.java:53)
+2013-05-05 17:10:46,756 ERROR main XMLParser:<clinit>:56 - IOException
+java.io.FileNotFoundException: \xml\xml.properties (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at main.java.by.epam.xml.XMLParser.<clinit>(XMLParser.java:50)
+	at main.java.by.epam.db.pool.ConnectionPool.<init>(ConnectionPool.java:55)
+	at main.java.by.epam.db.pool.ConnectionPool.getInstance(ConnectionPool.java:129)
+	at main.java.by.epam.db.Main.main(Main.java:53)
+2013-05-05 17:10:46,806 ERROR main XMLParser:createLogicForSAXXMLReader:132 - SAXException in trying to create DOMXMLReader
+org.xml.sax.SAXParseException; systemId: file:///D:/Java%20Projects/EpamFinalTask/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at main.java.by.epam.xml.SAXXMLReader.<init>(SAXXMLReader.java:45)
+	at main.java.by.epam.xml.XMLParser.createLogicForSAXXMLReader(XMLParser.java:128)
+	at main.java.by.epam.xml.XMLParser.getSAMXMLReader(XMLParser.java:153)
+	at main.java.by.epam.db.pool.ConnectionPool.<init>(ConnectionPool.java:55)
+	at main.java.by.epam.db.pool.ConnectionPool.getInstance(ConnectionPool.java:129)
+	at main.java.by.epam.db.Main.main(Main.java:53)
+2013-05-05 17:15:33,206 ERROR main XMLParser:<clinit>:57 - IOException
+java.io.FileNotFoundException: \xml\xml.properties (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at main.java.by.epam.xml.XMLParser.<clinit>(XMLParser.java:50)
+	at main.java.by.epam.db.pool.ConnectionPool.<init>(ConnectionPool.java:55)
+	at main.java.by.epam.db.pool.ConnectionPool.getInstance(ConnectionPool.java:135)
+	at main.java.by.epam.db.Main.main(Main.java:53)
+2013-05-05 17:15:33,276 ERROR main XMLParser:createLogicForSAXXMLReader:133 - SAXException in trying to create DOMXMLReader
+org.xml.sax.SAXParseException; systemId: file:///D:/Java%20Projects/EpamFinalTask/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at main.java.by.epam.xml.SAXXMLReader.<init>(SAXXMLReader.java:45)
+	at main.java.by.epam.xml.XMLParser.createLogicForSAXXMLReader(XMLParser.java:129)
+	at main.java.by.epam.xml.XMLParser.getSAMXMLReader(XMLParser.java:154)
+	at main.java.by.epam.db.pool.ConnectionPool.<init>(ConnectionPool.java:55)
+	at main.java.by.epam.db.pool.ConnectionPool.getInstance(ConnectionPool.java:135)
+	at main.java.by.epam.db.Main.main(Main.java:53)
+2013-05-05 17:16:14,916 ERROR main XMLParser:createLogicForSAXXMLReader:138 - IOException in trying to create DOMXMLReader
+java.io.FileNotFoundException: D:\Java Projects\EpamFinalTask\src\main\resources\xml\prop.xml (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at main.java.by.epam.xml.SAXXMLReader.<init>(SAXXMLReader.java:45)
+	at main.java.by.epam.xml.XMLParser.createLogicForSAXXMLReader(XMLParser.java:129)
+	at main.java.by.epam.xml.XMLParser.getSAMXMLReader(XMLParser.java:154)
+	at main.java.by.epam.db.pool.ConnectionPool.<init>(ConnectionPool.java:55)
+	at main.java.by.epam.db.pool.ConnectionPool.getInstance(ConnectionPool.java:135)
+	at main.java.by.epam.db.Main.main(Main.java:53)
+2013-05-05 17:17:10,836  INFO main ConnectionPool:init:293 - Connection pool has been initialized successfully.
+2013-05-05 17:17:10,836  INFO main ConnectionPool:init:294 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:17:10,836  INFO main ConnectionPool:init:295 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:17:10,836  INFO main ConnectionPool:init:296 - User=root
+2013-05-05 17:17:10,836  INFO main ConnectionPool:init:297 - PoolSize=15
+2013-05-05 17:17:10,836  INFO main ConnectionPool:init:298 - CurrentSize=15
+2013-05-05 17:24:02,477 ERROR main XMLParser:<init>:105 - XML file is not valid
+org.xml.sax.SAXParseException; systemId: file:///D:/Java%20Projects/EpamFinalTask/src/resources/xml/prop.xml; lineNumber: 10; columnNumber: 10; cvc-complex-type.2.4.d: Invalid content was found starting with element 'blabla'. No child element is expected at this point.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(Unknown Source)
+	at javax.xml.validation.Validator.validate(Unknown Source)
+	at main.java.by.epam.xml.XMLParser.<init>(XMLParser.java:83)
+	at main.java.by.epam.xml.XMLParser.createLogicForSAXXMLReader(XMLParser.java:141)
+	at main.java.by.epam.xml.XMLParser.getSAMXMLReader(XMLParser.java:154)
+	at main.java.by.epam.db.pool.ConnectionPool.<init>(ConnectionPool.java:49)
+	at main.java.by.epam.db.pool.ConnectionPool.getInstance(ConnectionPool.java:115)
+	at main.java.by.epam.db.Main.main(Main.java:53)
+2013-05-05 17:24:02,487 ERROR main ConnectionPool:<init>:71 - Error in initialization file
+main.java.by.epam.xml.exception.NotValidXMLException: XML file is not valid, can't create parser to work with it
+	at main.java.by.epam.xml.XMLParser.<init>(XMLParser.java:106)
+	at main.java.by.epam.xml.XMLParser.createLogicForSAXXMLReader(XMLParser.java:141)
+	at main.java.by.epam.xml.XMLParser.getSAMXMLReader(XMLParser.java:154)
+	at main.java.by.epam.db.pool.ConnectionPool.<init>(ConnectionPool.java:49)
+	at main.java.by.epam.db.pool.ConnectionPool.getInstance(ConnectionPool.java:115)
+	at main.java.by.epam.db.Main.main(Main.java:53)
+Caused by: org.xml.sax.SAXParseException; systemId: file:///D:/Java%20Projects/EpamFinalTask/src/resources/xml/prop.xml; lineNumber: 10; columnNumber: 10; cvc-complex-type.2.4.d: Invalid content was found starting with element 'blabla'. No child element is expected at this point.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(Unknown Source)
+	at javax.xml.validation.Validator.validate(Unknown Source)
+	at main.java.by.epam.xml.XMLParser.<init>(XMLParser.java:83)
+	... 5 more
+2013-05-05 17:25:15,917  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:25:15,917  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:25:15,917  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:25:15,917  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:25:15,917  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:25:15,917  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:34:15,688  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:34:15,688  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:34:15,688  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:34:15,688  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:34:15,688  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:34:15,688  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:34:39,318  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:34:39,318  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:34:39,318  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:34:39,318  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:34:39,328  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:34:39,328  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:34:49,908  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:34:49,908  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:34:49,908  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:34:49,908  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:34:49,908  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:34:49,908  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:35:03,838  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:35:03,838  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:35:03,838  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:35:03,838  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:35:03,838  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:35:03,838  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:36:40,539  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:36:40,539  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:36:40,539  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:36:40,539  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:36:40,539  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:36:40,539  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:37:19,379  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:37:19,379  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:37:19,379  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:37:19,379  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:37:19,379  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:37:19,379  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:38:21,001  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:38:21,001  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:38:21,001  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:38:21,001  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:38:21,001  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:38:21,001  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:38:35,783  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:38:35,783  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:38:35,783  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:38:35,783  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:38:35,783  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:38:35,783  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:39:24,173  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:39:24,173  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:39:24,173  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:39:24,173  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:39:24,173  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:39:24,173  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:39:34,545  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:39:34,545  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:39:34,545  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:39:34,545  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:39:34,545  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:39:34,545  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:40:24,425  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:40:24,425  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:40:24,425  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:40:24,425  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:40:24,425  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:40:24,425  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:40:35,825  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:40:35,825  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:40:35,825  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:40:35,825  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:40:35,825  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:40:35,825  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-05 17:40:56,295  INFO main ConnectionPool:init:273 - Connection pool has been initialized successfully.
+2013-05-05 17:40:56,305  INFO main ConnectionPool:init:274 - Driver=com.mysql.jdbc.Driver
+2013-05-05 17:40:56,305  INFO main ConnectionPool:init:275 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-05 17:40:56,305  INFO main ConnectionPool:init:276 - User=root
+2013-05-05 17:40:56,305  INFO main ConnectionPool:init:277 - PoolSize=15
+2013-05-05 17:40:56,305  INFO main ConnectionPool:init:278 - CurrentSize=15
+2013-05-07 17:48:10,060  INFO main ConnectionPool:init:274 - Connection pool has been initialized successfully.
+2013-05-07 17:48:10,060  INFO main ConnectionPool:init:275 - Driver=com.mysql.jdbc.Driver
+2013-05-07 17:48:10,060  INFO main ConnectionPool:init:276 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-07 17:48:10,060  INFO main ConnectionPool:init:277 - User=root
+2013-05-07 17:48:10,060  INFO main ConnectionPool:init:278 - PoolSize=15
+2013-05-07 17:48:10,060  INFO main ConnectionPool:init:279 - CurrentSize=15
+2013-05-07 17:56:54,004  INFO main ConnectionPool:init:266 - Connection pool has been initialized successfully.
+2013-05-07 17:56:54,020  INFO main ConnectionPool:init:267 - Driver=com.mysql.jdbc.Driver
+2013-05-07 17:56:54,020  INFO main ConnectionPool:init:268 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-07 17:56:54,020  INFO main ConnectionPool:init:269 - User=root
+2013-05-07 17:56:54,020  INFO main ConnectionPool:init:270 - PoolSize=15
+2013-05-07 17:56:54,020  INFO main ConnectionPool:init:271 - CurrentSize=15
+2013-05-09 13:54:22,089  INFO main ConnectionPool:init:266 - Connection pool has been initialized successfully.
+2013-05-09 13:54:22,105  INFO main ConnectionPool:init:267 - Driver=com.mysql.jdbc.Driver
+2013-05-09 13:54:22,105  INFO main ConnectionPool:init:268 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-09 13:54:22,105  INFO main ConnectionPool:init:269 - User=root
+2013-05-09 13:54:22,105  INFO main ConnectionPool:init:270 - PoolSize=15
+2013-05-09 13:54:22,105  INFO main ConnectionPool:init:271 - CurrentSize=15
+2013-05-09 14:39:53,108  INFO main ConnectionPool:init:266 - Connection pool has been initialized successfully.
+2013-05-09 14:39:53,108  INFO main ConnectionPool:init:267 - Driver=com.mysql.jdbc.Driver
+2013-05-09 14:39:53,108  INFO main ConnectionPool:init:268 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-09 14:39:53,108  INFO main ConnectionPool:init:269 - User=root
+2013-05-09 14:39:53,108  INFO main ConnectionPool:init:270 - PoolSize=15
+2013-05-09 14:39:53,108  INFO main ConnectionPool:init:271 - CurrentSize=15
+2013-05-09 14:42:35,137  INFO main ConnectionPool:init:266 - Connection pool has been initialized successfully.
+2013-05-09 14:42:35,137  INFO main ConnectionPool:init:267 - Driver=com.mysql.jdbc.Driver
+2013-05-09 14:42:35,137  INFO main ConnectionPool:init:268 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-09 14:42:35,137  INFO main ConnectionPool:init:269 - User=root
+2013-05-09 14:42:35,137  INFO main ConnectionPool:init:270 - PoolSize=15
+2013-05-09 14:42:35,137  INFO main ConnectionPool:init:271 - CurrentSize=15
+2013-05-09 15:13:04,196  INFO main ConnectionPool:init:266 - Connection pool has been initialized successfully.
+2013-05-09 15:13:04,196  INFO main ConnectionPool:init:267 - Driver=com.mysql.jdbc.Driver
+2013-05-09 15:13:04,196  INFO main ConnectionPool:init:268 - URL=jdbc:mysql://localhost:3306/examsbd
+2013-05-09 15:13:04,196  INFO main ConnectionPool:init:269 - User=root
+2013-05-09 15:13:04,196  INFO main ConnectionPool:init:270 - PoolSize=15
+2013-05-09 15:13:04,196  INFO main ConnectionPool:init:271 - CurrentSize=15

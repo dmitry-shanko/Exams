@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<propertiesList xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+	xs:noNamespaceSchemaLocation="prop.xsd">
+	<dbdriver>com.mysql.jdbc.Driver</dbdriver>
+	<dburl>jdbc:mysql://localhost:3306/examsbd</dburl>
+	<dbuser>root</dbuser>
+	<dbpassword>1234</dbpassword>
+	<dbpoolsize>15</dbpoolsize>
+	<dbfactoryname>MySQL</dbfactoryname>
+</propertiesList>

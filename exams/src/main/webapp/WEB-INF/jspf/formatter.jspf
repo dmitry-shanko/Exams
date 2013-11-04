@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<fmt:requestEncoding value="utf-8" />
+<jsp:useBean id="lang" scope="session"
+	class="java.lang.String">
+</jsp:useBean>
+<fmt:setLocale value="${lang}"></fmt:setLocale>
+<fmt:setBundle basename="jsp.page" var="loc" />
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <link href="bootstrap/css/footer.css" rel="stylesheet">

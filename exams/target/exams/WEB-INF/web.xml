@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>EpamFinalTask</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>/tags/ExamsTags.tld</taglib-uri>
+			<taglib-location>/tags/ExamsTags.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/error/nosuchpage.jsp</location>
+	</error-page>
+	<error-page>
+		<location>/WEB-INF/error/error.jsp</location>
+	</error-page>
+
+<servlet>
+    <servlet-name>MainServlet</servlet-name>
+    <servlet-class>by.epam.web.MainServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+        <servlet-name>MainServlet</servlet-name>
+        <url-pattern>/MainServlet</url-pattern>
+    </servlet-mapping>
+    
+	<filter>
+		<filter-name>setCharFilter</filter-name>
+		<filter-class>by.epam.web.filter.CharsetFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>setCharFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>setLoginFilter</filter-name>
+		<filter-class>by.epam.web.filter.LoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>setLoginFilter</filter-name>
+		<url-pattern>/pages/mainpage.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setLoginFilter</filter-name>
+		<url-pattern>/pages/admin.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setLoginFilter</filter-name>
+		<url-pattern>/pages/check.jsp</url-pattern>
+	</filter-mapping>
+		<filter-mapping>
+		<filter-name>setLoginFilter</filter-name>
+		<url-pattern>/pages/exams.jsp</url-pattern>
+	</filter-mapping>
+		<filter-mapping>
+		<filter-name>setLoginFilter</filter-name>
+		<url-pattern>/pages/newexam.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setLoginFilter</filter-name>
+		<url-pattern>/pages/pass.jsp</url-pattern>
+	</filter-mapping>
+		<filter-mapping>
+		<filter-name>setLoginFilter</filter-name>
+		<url-pattern>/pages/students.jsp</url-pattern>
+	</filter-mapping>
+
+
+	<filter>
+		<filter-name>setAdminFilter</filter-name>
+		<filter-class>by.epam.web.filter.AdminFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>setAdminFilter</filter-name>
+		<url-pattern>/pages/admin.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setAdminFilter</filter-name>
+		<url-pattern>/pages/check.jsp</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>setRedirectFilter</filter-name>
+		<filter-class>by.epam.web.filter.RedirectFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>setRedirectFilter</filter-name>
+		<url-pattern>/pages/exams.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setRedirectFilter</filter-name>
+		<url-pattern>/pages/check.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setRedirectFilter</filter-name>
+		<url-pattern>/pages/newexam.jsp</url-pattern>
+	</filter-mapping>
+		<filter-mapping>
+		<filter-name>setRedirectFilter</filter-name>
+		<url-pattern>/pages/pass.jsp</url-pattern>
+	</filter-mapping>
+		<filter-mapping>
+		<filter-name>setRedirectFilter</filter-name>
+		<url-pattern>/pages/admin.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setRedirectFilter</filter-name>
+		<url-pattern>/pages/students.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setRedirectFilter</filter-name>
+		<url-pattern>/pages/mainpage.jsp</url-pattern>
+	</filter-mapping>
+		<filter-mapping>
+		<filter-name>setRedirectFilter</filter-name>
+		<url-pattern>/pages/signin.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setRedirectFilter</filter-name>
+		<url-pattern>/pages/no.jsp</url-pattern>
+	</filter-mapping>
+	
+
+	<!--  <filter>
+		<filter-name>setRefreshFilter</filter-name>
+		<filter-class>by.epam.web.filter.RefreshFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>setRefreshFilter</filter-name>
+		<url-pattern>/admin.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>setRefreshFilter</filter-name>
+		<url-pattern>/mainpage.jsp</url-pattern>
+	</filter-mapping>
+	-->
+	
+	
+	<!--
+
+
+	 <filter>
+		<filter-name>setStudentContentRefreshFilter</filter-name>
+		<filter-class>by.epam.web.filter.StudentContentRefreshFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>setStudentContentRefreshFilter</filter-name>
+		<url-pattern>/mainpage.jsp</url-pattern>
+	</filter-mapping>
+	 -->
+</web-app>

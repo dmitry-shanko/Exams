@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<jsp:useBean id="login" scope="session"
+	type="by.epam.entity.User">
+</jsp:useBean>
+<table width="100%" border="0">
+	<tr>
+		<td><c:choose>
+				<c:when test="${login.idroles == 1}">
+					<a href="MainServlet?command=adminpage"><fmt:message bundle="${loc}"
+							key="headerAdmin" /></a>
+				</c:when>
+				<c:when test="${login.idroles == 2}">
+					<a href="MainServlet?command=adminpage"><fmt:message bundle="${loc}"
+							key="headerLecturer" /></a>
+				</c:when>
+				<c:otherwise>
+    </c:otherwise>
+			</c:choose></td>
+		<td align="right"><a href="MainServlet?command=logout"><fmt:message
+					bundle="${loc}" key="headerLogout" /></a></td>
+	</tr>
+	<tr>
+	<td align="left"><a href="MainServlet?command=showPassed"><fmt:message
+					bundle="${loc}" key="headerShow" /></a></td>
+	</tr>
+</table>

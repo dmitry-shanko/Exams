@@ -1,0 +1,205 @@
+/* Desktop Version */
+body{font-family:Arial, Helvetica, sans-serif;}
+.Mwrapper{ display:none;}
+.wrapper{ display:block;margin:0px auto;width:974px; }
+.logo-header{float:left; width:974px; height:50px; padding:20px 0px 0px 10px;}
+.logolink{float:left;display:block;width:133px;height:18px; background:url(/mysso/sso_loginui/oralogo_small.gif) no-repeat center; text-indent:-5000px;}
+
+.main-container{float:left; width:974px; height:auto;}
+.main-container .t-t{float:left;background:url(/mysso/sso_loginui/t-bg.gif) repeat-x; width:974px; height:50px;}
+.main-container .t-t span.tt-l-corner{ float:left; background:url(/mysso/sso_loginui/t-l-corner.gif) no-repeat left; width:15px; height:50px;}
+.main-container .t-t span.tt-r-corner{float:right; background:url(/mysso/sso_loginui/t-r-corner.gif) no-repeat right; width:15px; height:50px;}
+.main-container .t-b{float:left;background:url(/mysso/sso_loginui/b-bg.gif) repeat-x; width:974px; height:15px;}
+.main-container .t-b span.tb-l-corner{ float:left; background:url(/mysso/sso_loginui/b-l-corner.gif) no-repeat left; width:15px; height:15px;}
+.main-container .t-b span.tb-r-corner{float:right; background:url(/mysso/sso_loginui/b-r-corner.gif) no-repeat right; width:15px; height:15px;}
+
+.main-container .login-mainarea{ float:left;width:972px; height:auto; background: #FFF; border-left:1px solid #d2d2d2;border-right:1px solid #d2d2d2; padding:0px 0px 5px 0px;}
+
+.graybox-wrapper{margin:0px auto; width:316px;}
+.graybox-signintxt{float:left; margin:0px; padding:5px 0px 7px 8px; width:308px; height:20px; text-align:left;}
+.pwrdbytxt{ margin:0px; padding:5px 0px 0px 0px; width:316px; height:auto; text-align:right; font-size:10px; color:#666; line-height:12px;}
+.graybox-container{float:left; width:316px; height:auto;}
+.graybox-container .gb-t{float:left;width:316px; height:20px; background:url(/mysso/sso_loginui/gray-t-line.gif) repeat-x;}
+.graybox-container .gb-t span.gb-t-l{float:left; width:20px; height:20px; background:url(/mysso/sso_loginui/gray-b-l-t.gif) no-repeat left;}
+.graybox-container .gb-t span.gb-t-r{float:right; width:20px; height:20px; background:url(/mysso/sso_loginui/gray-b-r-t.gif) no-repeat right;}
+.graybox-container .gb-b{float:left;width:316px; height:20px; background:url(/mysso/sso_loginui/gray-b-line.gif) repeat-x; padding-bottom:5px;}
+.graybox-container .gb-b span.gb-b-l{float:left; width:20px; height:20px; background:url(/mysso/sso_loginui/gray-b-l-b.gif) no-repeat left;}
+.graybox-container .gb-b span.gb-b-r{float:right; width:20px; height:20px; background:url(/mysso/sso_loginui/gray-b-r-b.gif) no-repeat right;}
+
+.graybox-container .gb-m{float:left;width:314px; height:auto; background:#f3f3f5;border-left:1px solid #d2d2d2;border-right:1px solid #d2d2d2;}
+.graybox-container .gb-m .signinform{float:left; padding:0px 20px 5px 20px; width:276px; height:auto; font-size:13px;}
+.signinform form label.sf-lbl, .signinform form label{float:left;width:276px;height:15px; padding-top:1px;} 
+.signinform form input.sf-txtbox, .signinform form input[type='text']{float:left;width:272px;height:20px; border:0px; border:1px solid #7e9db9; margin-top:5px;}
+.signinform form input.sf-pwdbox, .signinform form input[type='password']{float:left;width:272px;height:20px;border:0px; border:1px solid #7e9db9;margin-top:5px;}
+.signinformrowtext{width:auto; text-align:right;  padding-top:2px;}
+.lostInfoLink {font-family: Arial, Helvetica, sans-serif; font-size: 11px; color:#666; } 
+.signinform form span.logerror-instruct{float:left; width:272px; padding-top:1px;font-size:12px; color:#E10000;}
+.signinform form span.sf-instruct{float:left; width:272px; padding-top:5px;font-size:11px;}
+.signinform form .sf-btnarea{float:left; width:272px; margin-top:10px; text-align:left;}
+.sf-btnarea .buttonLinkText{float:left; width:auto; height:28px;background:url(/mysso/sso_loginui/red-b-m-bg.gif) repeat-x top center;font-size:13px;text-decoration:none;color:#FFF;font-weight:bold; padding:0px 0px 0px 0px; cursor:pointer;}
+.sf-btnarea .buttonLinkText .blt-l{float:left; width:3px; height:28px; background:url(/mysso/sso_loginui/red-b-l.gif) #666 no-repeat left;}
+.sf-btnarea .buttonLinkText .blt-txt{float:left;width:auto; height:22px; padding:5px 5px 0px 5px;background:url(/mysso/sso_loginui/red-b-m-bg.gif) #666 repeat-x top center; vertical-align:middle}
+.sf-btnarea .buttonLinkText .blt-r{float:left; width:4px; height:28px; background:url(/mysso/sso_loginui/red-b-r.gif) #666 no-repeat left;}
+a.content-links{color:#000;}
+a.content-links:hover{color:#F00;}
+
+.InstCont{ float:left;padding:10px 20px 5px 20px; width:275px; height:auto; border-top:1px solid #CCC;margin-top:5px;} 
+.Inst{width:auto;font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333;font-weight:bold;} 
+.Signup{width:auto; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:14px;color:#333333;}
+.SignupLink{color:#E10000; text-decoration:underline;}
+.HelpInst{width:auto; padding:0px; padding-top:10px; font-family:Arial, Helvetica, sans-serif; font-size:12px;color:#333333;}
+.HelpInstlink{font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #666;}
+
+
+.footer-content{float:left; width:auto; height:auto;}
+.footer-tagline{float:left;display:block;width:182px;height:34px; padding:30px 0px 0px 10px; background: url(/mysso/sso_loginui/oracle-footer-tagline.gif) no-repeat center; text-indent:-5000px;}
+.footer-legalnote-container{float:right; width:auto; height:auto; padding:15px 5px 0px 0px; font-size:12px;}
+.legalese{font-size: 10px; color: #000000; text-decoration: none; float:right;}
+.footer-info{float:left;padding:30px 15px 0px 15px; width:auto; height:auto;font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #666;}
+.footer-info div{border-top:1px solid #E4E4E4; padding-top:10px;}
+.ssoParahead1 {font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #000000; text-decoration: none; visited: #000000; padding-left:6px; }
+
+.legalese a {color: #000000; text-decoration: none;}
+.legalese a:link {color: #000000;text-decoration: none;}
+.legalese a:visited {color: #000000;text-decoration: none;}
+.legalese a:hover {color: #E10000;text-decoration: underline;}
+
+.hideFromScreen {position:absolute; left:-9999px; text-indent:-9999px;}
+.error-hide {display:none;}
+.error-show {float:left; width:272px; padding-top:5px;font-size:12px; color:#E10000;}
+
+/* Tablet version */
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  body{margin:0;padding:0 10px 10px}
+  .t-t,.t-b { display:none !important; }
+  .wrapper,.logo-header,.main-container,.login-mainarea{width:100%;}
+  .footer-info{width:auto;}
+  .main-container .login-mainarea {border:0; width:100%; background:transparent;}
+  .main-container {
+    padding-top:40px;padding-bottom:10px;
+    border:1px solid #d2d2d2;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;
+    background: #e5e5e5;
+    background: -moz-linear-gradient(top, #e5e5e5 0%, #ffffff 14%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(14%,#ffffff));
+    background: -webkit-linear-gradient(top, #e5e5e5 0%,#ffffff 14%);
+    background: -o-linear-gradient(top, #e5e5e5 0%,#ffffff 14%);
+    background: -ms-linear-gradient(top, #e5e5e5 0%,#ffffff 14%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 );
+    background: linear-gradient(top, #e5e5e5 0%,#ffffff 14%);
+    -moz-box-shadow:inset 0 0 0.9px 1px #fff;
+    -webkit-box-shadow:inset 0 0 0.9px 1px #fff;
+    box-shadow:inset 0 0 0.9px 1px #fff;
+  }
+}
+
+/* Mobile Version styling classes */
+@media handheld, only screen and (max-width: 767px) {
+
+  .wrapper{ display:none;}
+  .Mwrapper{ display:block;}
+  body{font-family:Arial, Helvetica, sans-serif; 
+       text-align:left;background-color: #ededed; margin:0;
+       -webkit-text-size-adjust: none;}
+  .Mwrapper{margin:0px; width:100%;}
+  .Mlogo-header{width:100%; height:30px; text-align:center;margin-left:0px; background-image:url(/mysso/sso_loginui/ip-t-r-bg.gif); background-repeat:repeat-x;text-align:center;}
+  a.Mlogolink{background:url(/mysso/sso_loginui/ip-o-logo.gif);display:block;width:114px;height:30px; text-decoration:none;margin:0 auto;}
+  a.Mlogolink img{border:0px; }
+  .Mgb-m{width:100%;height:auto; background-color:#f3f3f5;}
+  .Msigninform{ width:auto;height:auto; font-size: small; clear:both; text-align:left;}
+  .MsigninformBG{ background-repeat:repeat-x; background-position:top; background-color: #ededed;}
+  form{padding:10px;margin:0;}
+  label.Msf-lbl, label{width:auto;height:15px; padding:0px; padding-top:5px; font-family:Arial, Helvetica, sans-serif; font-size:medium; color:#333333;font-weight:bold;} 
+  input {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;}
+  input.Msf-txtbox, input[type='text']{width:100%;height:28px;color: #5E686F; font-size:medium;border: 1px solid #323232;}
+  input.Msf-pwdbox, input[type='password']{width:100%;height:28px;color: #5E686F; font-size:medium;border: 1px solid #323232;}
+  .Msigninformrow{ width:auto;text-align:left; padding-top:4px;}
+  .Msigninformrowtext{width:auto; text-align:right; margin-top:2px;}
+  .Msigninformrowerror{ width:auto;font-size:medium; color:#FF0000;}
+  .Msigninformbtnarea{ width:auto;padding-top:6px; text-align:left;}
+  .Msf-btn{border:0px;color:#FFFFFF;background-image:url(/mysso/sso_loginui/red-b-m-bg.gif); background-color:#F00; font-weight:bold; padding:5px;border-style:outset; border-width:2px; border-color:#F00;  cursor:pointer; font-family:Arial, Helvetica, sans-serif;font-weight:bold !important;}
+  .MlostInfoLink {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; text-decoration:underline;}
+  .MMInstBG{background-color: #f5f5f5; padding-left: 10px; padding-top:5px; padding-bottom:7px; line-height:medium;} 
+  .MInst{width:auto;font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333;font-weight:bold;} 
+  .MSignup{width:auto; font-family:Arial, Helvetica, sans-serif; font-size:14px;color:#333333;}
+  .MSignupLink{color:#FF0000; text-decoration:underline;}
+  
+  .MHelpInst{width:auto; padding-top:10px;  
+             font-family:Arial, Helvetica, sans-serif; 
+             font-size:11px; color:#333333;}
+  
+  .Mpwrdbytxt{ margin:0px; padding:0px; width:auto; height:auto; 
+               padding-top:4px; padding-bottom:4px; text-align:center; 
+               font-size:11px; color:#666666; background-color:#ededed;
+               border-top-width:1px; border-top-style:solid; 
+               border-top-color:#FFF; border-bottom-width:1px; 
+               border-bottom-style:solid; border-bottom-color:#FFF;}
+
+  .MbuttonBG{ width:auto; height:35px;
+              background:url(/mysso/sso_loginui/M-red-b-m-bg.png) 
+              repeat-x top center;}
+  .MbuttonLinkText{ font-size:16px; text-decoration:none; color:#FFF;
+                    font-weight:bold; padding:0px 0px 0px 0px; cursor:pointer;}
+  .Mblt-l{float:left; width:5px; height:35px; 
+          background:url(/mysso/sso_loginui/M-red-b-l.png) no-repeat left;}
+  .Mblt-txt{float:left;width:auto; padding:0px 5px 0px 5px;
+            vertical-align:middle; cursor:pointer;}
+  .Mblt-r{float:left; width:5px; height:35px;
+          background:url(/mysso/sso_loginui/M-red-b-r.png) no-repeat left;}
+          
+  .error-show {float:none; width:auto; padding-top:5px;font-size:14px; color:#E10000;}
+  .error-hide {display:none;}  
+
+  .NetworkUse_title{font-family:Arial, Helvetica, sans-serif; font-size:medium; 
+                    color:#333333;font-weight:bold; padding-bottom:10px;}
+  .NetworkUse_info{font-family:Arial, Helvetica, sans-serif; font-size:small;
+                   color: #333333;font-weight:normal; padding-bottom:10px;}
+  .NetworkUse_info_link{font-family:Arial, Helvetica, sans-serif; font-size:small;
+                        color: #333333;font-weight:normal; padding-bottom:10px;}
+  .NetworkUse_Content{padding:0px; padding-top:10px; padding-right:5%; 
+                      padding-bottom:20px; padding-left:5%; 
+                      background-color: #ededed;}
+                      
+  .MNWbtnarea{ width:auto;padding-top:6px; text-align:left; display:block;}
+  .MbckbuttonBG{ width:auto; height:27px;
+                 background:url(/mysso/sso_loginui/b-but-c-bg.png) repeat-x top center;}
+  .MbckbuttonLinkText{ font-size:13px;text-decoration:none;color:#FFF;
+                       font-weight:bold; padding:0px 0px 0px 0px; cursor:pointer;}
+  .Mbckblt-l{float:left; width:12px; height:27px; 
+             background:url(/mysso/sso_loginui/b-but-l.png)  no-repeat left;}
+  .Mbckblt-txt{float:left;width:auto; height:20px; padding:5px 5px 0px 5px;
+               background:url(/mysso/sso_loginui/b-but-c-bg.png)  repeat-x top center; 
+               vertical-align:middle;}
+  .Mbckblt-r{float:left; width:5px; height:27px; 
+             background:url(/mysso/sso_loginui/b-but-r.png)  no-repeat left;}
+  a.content-links, content-links{font-family:Arial, Helvetica, sans-serif; font-size:small;
+                                 color: #333333;font-weight:normal; padding-bottom:10px;}
+                                 
+  .Mlegal-Container 
+  {
+    padding-top:10px; padding-bottom:5px; text-align:left; 
+  }
+  .Mlegal-instruct{font-family: Arial, Helvetica, sans-serif;
+                   font-size:12px; width: auto;}
+  .Mlegal-instructLink{font-family: Arial, Helvetica, sans-serif; 
+                       font-size: 12px; 
+                       color: #333333;}
+  .MHelpInstlink{font-family: Arial, Helvetica, sans-serif; 
+                 font-size: 12px; color: #333333;}
+  
+  .MHelpInstlink a {color:#333333; text-decoration: underline;}
+  .MHelpInstlink a:link {color:#333333;text-decoration: underline;}
+  .MHelpInstlink a:visited {color: #333333;text-decoration: underline;}
+  .MHelpInstlink a:hover {color: #E10000;text-decoration: underline;}
+  
+  .MfooterLinks{
+    padding-top:20px; padding-bottom:5px; text-align:center; 
+  }
+}
+
+/* ! Provide higher res assets for iPhone 4   */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+  /* TODO get a higher res logo */
+  a.Mlogolink{background:url(/mysso/sso_loginui/ip-o-logo-retina.gif);display:block;width:114px;height:30px; text-decoration:none;margin:0 auto;}
+
+}

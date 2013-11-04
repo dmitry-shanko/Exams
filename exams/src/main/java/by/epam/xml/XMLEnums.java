@@ -1,0 +1,7 @@
+package by.epam.xml;
+
+public enum XMLEnums 
+{
+	PROPERTIESLIST, DBURL, DBDRIVER, DBUSER,
+	DBPASSWORD, DBPOOLSIZE, DBFACTORYNAME;
+}
